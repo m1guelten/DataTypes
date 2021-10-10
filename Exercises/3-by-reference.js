@@ -1,5 +1,10 @@
 'use strict';
 
-const inc = null;
+const inc=(num)=>{
+    if (typeof num === 'object') {
+      num.n = num.n+1;
+    }
+  }
+  
 
 module.exports = { inc };
